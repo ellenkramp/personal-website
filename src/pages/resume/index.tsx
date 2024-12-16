@@ -29,7 +29,7 @@ const ResumePage = () => {
       </h1>
       {resume.positions.map((position) => {
         return (
-          <div id={position.company}>
+          <div key={position.company}>
             <h1 className="md:text-4xl text-2xl font-bold pb-1">
               {position.title}
             </h1>

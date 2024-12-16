@@ -1,12 +1,11 @@
 import type { ReactElement, ReactNode } from "react";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
-import { Inter } from "next/font/google";
 import { Agdasima, Offside } from "next/font/google";
 import "../app/globals.css";
-import Footer from "@/components/Footer";
 import Nav from "@/components/Nav";
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
@@ -14,8 +13,6 @@ export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
 type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
-
-const inter = Inter({ subsets: ["latin"] });
 
 const agdasima = Agdasima({
   weight: ["400", "700"],
@@ -37,7 +34,6 @@ export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
       <main className={agdasima.className}>
         {getLayout(<Component {...pageProps} />)}
       </main>
-      {/* <Footer /> */}
     </>
   );
 }

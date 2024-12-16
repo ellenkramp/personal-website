@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div className="lg:text-7xl md:text-5xl text-3xl flex flex-col justify-center align-middle md:p-16 p-8 gap-8 sm:p-20 box-border">
       <h1 className={caprasimo.className}>
-        <span className="color-subtitle">Hi! I'm </span>
+        <span className="color-subtitle">Hi! I&apos;m </span>
         <br />
         <span className="color-blue-800 name accent-text-shadow-title">
           ellen kramp

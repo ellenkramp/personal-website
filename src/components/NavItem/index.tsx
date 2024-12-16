@@ -4,7 +4,6 @@ import "./styles.css";
 import { useRouter } from "next/router";
 
 type NavItemProps = {
-  id: string;
   title: string;
   link: string;
 };

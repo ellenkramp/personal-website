@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "next/router";
 import NavItem from "../NavItem";
 import "./styles.css";
 
@@ -28,7 +27,7 @@ const Nav = ({ className }: { className: string }) => {
       className={`${className} flex justify-center md:gap-8 gap-4 md:py-8 py-4 max-w-full min-w-fit nav`}
     >
       {navItems.map((item) => (
-        <NavItem id={item.title} title={item.title} link={item.link} />
+        <NavItem key={item.title} title={item.title} link={item.link} />
       ))}
     </nav>
   );

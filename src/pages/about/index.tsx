@@ -1,8 +1,6 @@
-import type { ReactElement } from "react";
 import Image from "next/image";
 import "./styles.css";
 import { NextPageWithLayout } from "../_app";
-import PageLayout from "@/components/page-layout";
 
 const AboutPage: NextPageWithLayout = () => {
   return (
@@ -24,9 +22,9 @@ const AboutPage: NextPageWithLayout = () => {
           So I quit my job and went to bootcamp! 🏋️‍♀️
         </p>
         <p className="indent-8">
-          It wasn't easy to make such a big career change, but I was completely
-          committed to pursuing my dreams. Shortly after I completed my
-          four-month training at DigitalCrafts, I landed my first gig! Now,
+          It wasn&apos;t easy to make such a big career change, but I was
+          completely committed to pursuing my dreams. Shortly after I completed
+          my four-month training at DigitalCrafts, I landed my first gig! Now,
           nearly seven years later, I can safely say I have zero regrets. 😇
         </p>
         <span>
@@ -40,19 +38,15 @@ const AboutPage: NextPageWithLayout = () => {
           />
         </span>
         <p className="indent-8">
-          When I’m not engineering seamless web experiences, I’m assembling epic
-          Lego creations, tickling the ivories with impromptu piano tunes, or
-          conquering the competition in board games. I am a serial hobbyist, so
-          you might catch me doing anything from learning Japanese to
-          crocheting.
+          When I&apos;m not engineering seamless web experiences, I&apos;m
+          assembling epic Lego creations, tickling the ivories with impromptu
+          piano tunes, or conquering the competition in board games. I am a
+          serial hobbyist, so you might catch me doing anything from learning
+          Japanese to crocheting.
         </p>
       </div>
     </div>
   );
-};
-
-AboutPage.getLayout = function getLayout(page: ReactElement) {
-  return <PageLayout>{page}</PageLayout>;
 };
 
 export default AboutPage;
