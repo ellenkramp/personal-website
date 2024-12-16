@@ -24,7 +24,7 @@ const NavItem = ({ title, link }: NavItemProps) => {
         router.push({ pathname: link });
       }}
     >
-      <h3 className="text-2xl nav-item__title">{title}</h3>
+      <h3 className="lg:text-xl p-2 nav-item__title">{title}</h3>
     </button>
   );
 };

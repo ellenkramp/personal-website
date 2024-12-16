@@ -7,9 +7,7 @@ import PageLayout from "@/components/page-layout";
 const AboutPage: NextPageWithLayout = () => {
   return (
     <div className="section p-8 pb-20 gap-16 sm:p-20 box-border">
-      <h2 className="lg:text-6xl text-3xl pb-8">
-        Hi there! 👋 I’m Ellen, a crafty coder with a love of learning
-      </h2>
+      <h2 className="lg:text-6xl text-3xl pb-8">A little about me...</h2>
       <div className="lg:text-3xl text-xl">
         <Image
           aria-hidden

@@ -1,0 +1,47 @@
+{
+  "summary": "I'm passionate about creating seamless UI/UX experiences that lead to acquiring and retaining users, creating new features using React/Javascript, Typescript and Scss. Not to mention, creating succinct and well-documented APIs that interface with third party integrations like Stripe and ShipEngine.",
+  "positions": [
+    {
+      "company": "Univer.se",
+      "title": "Full Stack Software Engineer",
+      "description": "As a flexible engineer on a small team, I was able to interact with nearly every part of a large software application with which customers can create and publish their own websites. Among the many projects I worked on during my time at Universe, I created new api's for shipping integration and payment management. I was involved from the ground up on creating a new web platform to match the company's iOS app. Within this, I created UI flows for site management, merchant sign up, commerce and order management, new page publication, and subscription upsells, among many more projects.",
+      "start_date": "July 2020",
+      "end_date": "October 2024"
+    },
+    {
+      "company": "Stable Kernel",
+      "title": "Front-end Software Engineer",
+      "description": "As the front-end developer of a small team, I worked closely with project managers and designers to code client web applications to spec using Angular. The projects worked on include a web application for a healthcare device company, utilizing smart device connections to record usage data and metrics, as well as white-label application for an insurance conglomerate.",
+      "start_date": "October 2019",
+      "end_date": "June 2020"
+    },
+    {
+      "company": "GE",
+      "title": "Front-end Software Engineer",
+      "description": "I worked on multiple projects in an Agile environment using Jira and Microsoft tooling, focusing on React front end, working with a Graphql API. These projects included metrics dashboards, internal communication tools, and internal component libraries.",
+      "start_date": "October 2019",
+      "end_date": "June 2020"
+    },
+    {
+      "company": "Groundfloor",
+      "title": "Front-end Software Developer Intern",
+      "description": "In the short four months I interned with Groundfloor, I designed and coded an experimental react native app to match the company's web app. I met with product owners regularly to receive feedback and share updates. I also contributed to a Vue.js UI dashboard project.",
+      "start_date": "June 2018",
+      "end_date": "September 2018"
+    }
+  ],
+  "education": [
+    {
+      "institutiom": "University of South Florida",
+      "subject": "Mass Communication",
+      "program_completed": "Bachelor of Arts",
+      "end_date": "December 2011"
+    },
+    {
+      "institutiom": "DigitalCrafts",
+      "subject": "Full Stack Web Development",
+      "program_completed": "Full Stack Certification",
+      "end_date": "May 2018"
+    }
+  ]
+}

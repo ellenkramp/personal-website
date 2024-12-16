@@ -1,12 +1,19 @@
 .nav-item__button {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   align-items: center;
   width: fit-content;
   border-width: 2px solid var(--accent-color-shadow);
   background-color: var(--color-salmon-100);
-  box-shadow: 3px 6px 0 var(--accent-color-shadow); /* Inner shadow for depth */
-  padding: 0 8px;
+  box-shadow: 3px 6px 0 var(--accent-color-shadow);
+  padding: 0 4px;
+}
+
+@media (min-width: 640px) {
+  .nav-item__button {
+    gap: 16px;
+    padding: 0 8px;
+  }
 }
 
 .nav-item__button:hover,
@@ -15,7 +22,5 @@
 }
 
 .nav-item__title {
-  line-height: 40px;
-  font-size: 14px;
   color: var(--color-blue-800);
 }

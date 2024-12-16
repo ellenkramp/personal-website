@@ -4,14 +4,6 @@ import NavItem from "../NavItem";
 import "./styles.css";
 
 const Nav = ({ className }: { className: string }) => {
-  const router = useRouter();
-  const currentPath = router.pathname;
-
-  const getClassName = (link: string) => {
-    const isCurrentLocation = currentPath === link;
-    return `nav__item ${isCurrentLocation && "nav__item-underline"}`;
-  };
-
   const navItems = [
     {
       title: "Home",
@@ -32,7 +24,9 @@ const Nav = ({ className }: { className: string }) => {
   ];
 
   return (
-    <nav className={`${className} nav`}>
+    <nav
+      className={`${className} flex justify-center md:gap-8 gap-4 md:py-8 py-4 max-w-full min-w-fit nav`}
+    >
       {navItems.map((item) => (
         <NavItem id={item.title} title={item.title} link={item.link} />
       ))}

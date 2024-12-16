@@ -8,7 +8,7 @@ const caprasimo = Caprasimo({
 
 const HomePage = () => {
   return (
-    <div className="md:text-7xl text-3xl flex flex-col justify-center align-middle md:p-16 p-8 gap-8 sm:p-20 box-border">
+    <div className="lg:text-7xl md:text-5xl text-3xl flex flex-col justify-center align-middle md:p-16 p-8 gap-8 sm:p-20 box-border">
       <h1 className={caprasimo.className}>
         <span className="color-subtitle">Hi! I'm </span>
         <br />

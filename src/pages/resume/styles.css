@@ -1,10 +1,15 @@
-.section {
-  box-sizing: border-box;
+.download-button {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: fit-content;
+  border-width: 2px solid var(--accent-color-shadow);
+  box-shadow: 3px 6px 0 var(--accent-color-shadow); /* Inner shadow for depth */
+  padding: 0 8px;
+  background-color: var(--color-salmon-100);
+  color: var(--color-blue-800);
 }
 
-.section__content {
-  &:nth-child(odd) {
-    margin-left: auto;
-    margin-right: 0;
-  }
+.download-button:hover {
+  background-color: #16a34a;
 }
