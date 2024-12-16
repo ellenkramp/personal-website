@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--color-blue-800);
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.github {
+  padding: 4px 0 0;
+}

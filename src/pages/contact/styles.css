@@ -1,0 +1,28 @@
+.symbol {
+  height: 50px;
+  width: 50px;
+}
+
+.symbol.github {
+  padding-top: 8px;
+  height: 60px;
+  width: 60px;
+}
+
+.section h1 {
+  font-size: 2.5rem;
+  @media (min-width: 640px) {
+    font-size: 4rem;
+  }
+}
+
+.section a {
+  font-size: 2rem;
+}
+
+.section__content {
+  &:nth-child(odd) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}

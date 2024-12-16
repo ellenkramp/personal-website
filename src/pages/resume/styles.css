@@ -1,0 +1,10 @@
+.section {
+  box-sizing: border-box;
+}
+
+.section__content {
+  &:nth-child(odd) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}

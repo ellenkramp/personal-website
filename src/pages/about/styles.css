@@ -1,0 +1,24 @@
+.section__content {
+  @media (min-width: 600px) {
+    font-size: 2rem;
+  }
+}
+
+.section__content p {
+  padding: 8px 0;
+  text-indent: 4ch;
+}
+
+.image__legos {
+  height: 200px;
+  width: 300px;
+  float: left;
+  padding: 20px;
+}
+
+.image__piano {
+  height: 165px;
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
