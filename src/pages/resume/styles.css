@@ -13,3 +13,20 @@
 .download-button:hover {
   background-color: #16a34a;
 }
+
+.iframe {
+  height: 270px;
+  width: 150px;
+  opacity: 1;
+}
+
+.iframe-container {
+  display: flex;
+}
+
+.section {
+  gap: 16px;
+  @media (min-width: 640px) {
+    gap: 32px;
+  }
+}
